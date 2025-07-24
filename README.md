@@ -34,7 +34,7 @@ Follow the steps below to simulate the system and run the detection and visualiz
 
 ### 1. Simulate the Grid in MATLAB Simulink
 
-- Open the Simulink file  `Fourteen_bus_dataslx`
+- Open the Simulink file  `Fourteen_bus_data.slx`
 - Run the simulation. It sends voltage and current values for all 14 buses via UDP to `localhost:5005`.
 
 ### 2. Run the MITM Attack Proxy
