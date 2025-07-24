@@ -259,6 +259,9 @@ class UDPServer:
             loop = asyncio.get_event_loop()
             loop.run_until_complete(self.run_websocket())
             loop.close()
+            print("Debug 1")
+            print("Debug 2")
+
         except KeyboardInterrupt:
             print("[+] Server shutdown requested")
         except Exception as e:

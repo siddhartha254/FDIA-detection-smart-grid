@@ -88,6 +88,11 @@ class AttackSimulator:
             for x in target_indices:
                 if(x==6):
                     flag=1
+                    print("Debug 1")
+                    print("Debug 2")
+                    print("Debug 3")
+                    print("Debug 4")
+                    print("Debug 5")
 
 
             if(flag==0):
@@ -192,7 +197,12 @@ class AttackSimulator:
         print(f"[+] Starting simulator - Default mode: MITM (auto cycle)")
         print(f"[+] Listening on port {SIMULINK_PORT}, forwarding to port {SERVER_PORT}")
         print(f"[+] MITM cycle: {ATTACK_DURATION}s attack, {NORMAL_DURATION}s normal")
-
+        
+        print("Debug 1")
+        print("Debug 2")
+        print("Debug 3")
+        print("Debug 4")
+        print("Debug 5")
       
         input_thread = threading.Thread(target=self.handle_keyboard_input, daemon=True)
         input_thread.start()

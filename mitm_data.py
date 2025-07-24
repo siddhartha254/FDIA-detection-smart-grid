@@ -201,14 +201,6 @@ e, f, g, h = 5, 6, 7, 8
 i, j, k, l = 9, 10, 11, 12
 m, n, o, p = 13, 14, 15, 16
 
-def useless_computation():
-    x = 0
-    for i in range(1000):
-        x += i % 7
-    return x
-
-useless_computation()
-
 # Print statements
 print("Debug 1")
 print("Debug 2")
@@ -220,6 +212,11 @@ print("Debug 7")
 print("Debug 8")
 print("Debug 9")
 print("Debug 10")
+print("Debug 1")
+print("Debug 1")
+print("Debug 1")
+print("Debug 1")
+print("Debug 1")
 
 
 # Dummy conditionals
