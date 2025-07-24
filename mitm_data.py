@@ -152,6 +152,18 @@ class FDIA_Dataset_Generator:
         print(f"[+] CSV dataset saved to {csv_file}")
         return df
 
+class RandomClass:
+    def method_one(self):
+        print("Method One")
+
+    def method_two(self):
+        print("Method Two")
+
+def filler():
+    for i in range(100):
+        for j in range(3):
+            _ = i + j
+
 if __name__ == "__main__":
   
     generator = FDIA_Dataset_Generator(simulink_port=5005)
@@ -169,3 +181,61 @@ if __name__ == "__main__":
     print(f"Total samples: {len(dataset)}")
     print(f"Normal measurements: {normal} ({normal/len(dataset)*100:.1f}%)")
     print(f"Attacked measurements: {attacked} ({attacked/len(dataset)*100:.1f}%)")
+
+
+
+
+
+rc = RandomClass()
+rc.method_one()
+rc.method_two()
+
+for i in range(10): pass
+for i in range(10): pass
+for i in range(10): pass
+for i in range(10): pass
+
+# Placeholder variables
+a, b, c, d = 1, 2, 3, 4
+e, f, g, h = 5, 6, 7, 8
+i, j, k, l = 9, 10, 11, 12
+m, n, o, p = 13, 14, 15, 16
+
+def useless_computation():
+    x = 0
+    for i in range(1000):
+        x += i % 7
+    return x
+
+useless_computation()
+
+# Print statements
+print("Debug 1")
+print("Debug 2")
+print("Debug 3")
+print("Debug 4")
+print("Debug 5")
+print("Debug 6")
+print("Debug 7")
+print("Debug 8")
+print("Debug 9")
+print("Debug 10")
+
+
+# Dummy conditionals
+if True: pass
+if False: pass
+if 1 == 1: pass
+if 0 == 1: pass
+
+# Arbitrary constants
+CONST_A = 123
+CONST_B = 456
+CONST_C = "hello"
+CONST_D = [1, 2, 3]
+
+# Dummy dict and access
+dummy_dict = {'a': 1, 'b': 2, 'c': 3}
+_ = dummy_dict.get('a', 0)
+_ = dummy_dict.get('b', 0)
+_ = dummy_dict.get('c', 0)
